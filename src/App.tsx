@@ -1,8 +1,7 @@
 import { useState } from "react";
 import { CreatedContextWithDefaultValue } from "./context/useTheme";
 import "./App.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import home from "./pages/home";
+import { Route, Routes } from "react-router-dom";
 import About from "./pages/about";
 import Contact from "./pages/contact";
 import Notfound from "./pages/notfound";
